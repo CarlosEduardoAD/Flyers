@@ -1,5 +1,5 @@
 <template>
-  <div class="titulo_main">
+  <div class="titulo_main" >
     <h1 class="vocesabia"> Flyers</h1>
   </div>
   <div>
