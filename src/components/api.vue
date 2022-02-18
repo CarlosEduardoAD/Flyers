@@ -1,7 +1,8 @@
 <template>
 
-<img :src="result" alt=""> 
-<div>{{result}}</div>
+<div>
+<img :src="result" alt="" width=450 height=450 class="imagem"> 
+</div>
   
 </template>
 
@@ -27,7 +28,7 @@ export default {
 <style>
 
 .imagem{
-  color: white;
+  border-radius: 12px;
 }
 
 </style>
