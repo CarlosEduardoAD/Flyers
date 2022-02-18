@@ -10,7 +10,7 @@
   </div>
 
   <section class="image">
-    <div class="imagem" data-aos="zoom-in-up">
+    <div class="imagem" data-aos="zoom-in-up" data-aos-duration="1000">
       <api/>
     </div>
   <div class="side">
@@ -58,6 +58,14 @@
        <li>Instagram: @Flyers</li>
      </ul>
    </div>
+   <div class="contato">
+     <h4 class="minitexto4">Patrocinadores</h4>
+     <ul>
+       <li>Canonical Project</li>
+       <li>Red Hat enterprise</li>
+       <li>Space X</li>
+     </ul>
+   </div>
  </footer>
 
 </template>
@@ -66,10 +74,10 @@
 
 import api from "../components/api.vue"
 
-
 export default {
   components: {api}, 
   setup() { 
+
   },
 }
 </script>

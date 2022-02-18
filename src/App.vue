@@ -1,4 +1,5 @@
 <template>
+  <header>
   <div class="titulo_main" >
     <h1 class="vocesabia"> Flyers</h1>
   </div>
@@ -11,13 +12,13 @@
      </nav>
       <router-view> </router-view>
    </div>
+   </header>
 </template>
 
 <script>
 
 export default {
   setup() {
-    
   },
 }
 </script>
@@ -39,6 +40,7 @@ align-items: center;
 justify-content: center; 
 font-family: 'Roboto Serif', sans-serif;
 color:white;
+min-width: 800px;
 }
 
 .nav a{

@@ -10,7 +10,7 @@
      <div class="texto" data-aos="fade-up" data-aos-duration="1000">
        <h2>O céu é o limite, e queremos levar você além dele</h2>
      </div>
-     <div class="imagem">
+     <div class="imagem" data-aos="fade-up"> 
        <img src="../assets/foguete.svg" style="filter: invert(99%) sepia(92%) saturate(2%) hue-rotate(199deg) brightness(108%) contrast(100%);" width=305 height= 400 alt="">
      </div>
      <div data-aos="fade-up" class="paragrafo">
@@ -61,6 +61,14 @@
        <li>Whatsapp: 00 91234-1234</li>
        <li>Telefone: 4321-4321</li>
        <li>Instagram: @Flyers</li>
+     </ul>
+   </div>
+   <div class="contato">
+     <h4 class="minitexto4">Patrocinadores</h4>
+     <ul>
+       <li>Canonical Project</li>
+       <li>Red Hat enterprise</li>
+       <li>Space X</li>
      </ul>
    </div>
  </footer>
@@ -189,6 +197,12 @@ body, html {
 font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   color: white;
 }
+
+.minitexto4{
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  color: white;
+}
+
 
 .direitos ul li{
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;

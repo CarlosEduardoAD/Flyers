@@ -6,11 +6,6 @@ import Home from '../views/Home.vue'
 
 const routes = [
   {
-    path: "/home",
-    name: "Home",
-    component: () => import(/* webpackChunkName: "about" */ '../App.vue')
-  },
-  {
     path: '/home',
     name: 'Home',
     component: Home
