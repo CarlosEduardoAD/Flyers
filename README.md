@@ -1,6 +1,6 @@
-# projeto
+# Flyers Website
 
-## Project setup
+## Project setup (If you want to edit the code or just review it)
 ```
 npm install
 ```
