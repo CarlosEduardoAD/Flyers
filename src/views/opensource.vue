@@ -1,6 +1,6 @@
 <template>
-    <main class="meio-open">
-        <section class="meio">
+    <main class="main-open">
+        <section class="secao-open">
             <div class="paragrafo-open" data-aos="fade-left" data-aos-duration="700"> <p>Entendemos que não são todo os que podem pagar para ter software ou para aprender a programar, <br>
             por isso deixamos nossos projetos de desenvolvimento como de código aberto, <br> ou seja, qualquer pessoa pode ir lá, pegar os códigos e mexer neles, 
             fazemos isso porque queremos além de ter <br>mais pessoas interagindo com nosso projeto, tendo a oportunidade de experimentar  <br>como é apoiar um projeto open-source. <br>
@@ -21,40 +21,6 @@
 
         </section>
     </main>
-    <footer class="rodape">
-   <div class="direitos">
-     <h4 class="minitexto1">Direitos autorais e outros</h4>
-     <ul>
-       <li>Copyright</li>
-       <li>Direitos autorais e liçenca</li>
-       <li>Termos de usuário</li>
-     </ul>
-   </div>
-   <div class="parceiros">
-     <h4 class="minitexto2">Nossos parceiros no projeto</h4>
-     <ul>
-       <li>IAG (São Paulo)</li>
-       <li>USP (Universidade de São Paulo)</li>
-       <li>UNB (Universidade de Brasília)</li>
-     </ul>
-   </div>
-   <div class="contato">
-     <h4 class="minitexto3">Fale conosco !</h4>
-     <ul>
-       <li>Whatsapp: 00 91234-1234</li>
-       <li>Telefone: 4321-4321</li>
-       <li>Instagram: @Flyers</li>
-     </ul>
-   </div>
-   <div class="contato">
-     <h4 class="minitexto4">Patrocinadores</h4>
-     <ul>
-       <li>Canonical Project</li>
-       <li>Red Hat enterprise</li>
-       <li>Space X</li>
-     </ul>
-   </div>
-    </footer>
 </template>
 
 <script>
@@ -67,15 +33,12 @@ export default {
 
 <style>
 
-.meio-open{
+.maim-open{
     display:flex;
     align-items: center;
     justify-content: center;
 }
 
-.meio{
-    max-width: 150vh;   
-}
 
 .paragrafo-open{
     text-align: center;
