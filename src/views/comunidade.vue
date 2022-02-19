@@ -33,40 +33,7 @@
   </div>
   </div>
   </section>
-   <footer class="rodape">
-   <div class="direitos">
-     <h4 class="minitexto1">Direitos autorais e outros</h4>
-     <ul>
-       <li>Copyright</li>
-       <li>Direitos autorais e liçenca</li>
-       <li>Termos de usuário</li>
-     </ul>
-   </div>
-   <div class="parceiros">
-     <h4 class="minitexto2">Nossos parceiros no projeto</h4>
-     <ul>
-       <li>IAG (São Paulo)</li>
-       <li>USP (Universidade de São Paulo)</li>
-       <li>UNB (Universidade de Brasília)</li>
-     </ul>
-   </div>
-   <div class="contato">
-     <h4 class="minitexto3">Fale conosco !</h4>
-     <ul>
-       <li>Whatsapp: 00 91234-1234</li>
-       <li>Telefone: 4321-4321</li>
-       <li>Instagram: @Flyers</li>
-     </ul>
-   </div>
-   <div class="contato">
-     <h4 class="minitexto4">Patrocinadores</h4>
-     <ul>
-       <li>Canonical Project</li>
-       <li>Red Hat enterprise</li>
-       <li>Space X</li>
-     </ul>
-   </div>
- </footer>
+  
 
 </template>
 
