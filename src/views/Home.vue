@@ -10,7 +10,7 @@
      <div class="texto" data-aos="fade-up" data-aos-duration="1000">
        <h2>O céu é o limite, e queremos levar você além dele</h2>
      </div>
-     <div class="imagem" data-aos="fade-up"> 
+     <div class="imagem" data-aos="fade-up" data-aos-duration="2500"> 
        <img src="../assets/foguete.svg" style="filter: invert(99%) sepia(92%) saturate(2%) hue-rotate(199deg) brightness(108%) contrast(100%);" width=305 height= 400 alt="">
      </div>
      <div data-aos="fade-up" class="paragrafo">
@@ -37,41 +37,6 @@
      </div>
    </section>
  </main>
-
- <footer class="rodape">
-   <div class="direitos">
-     <h4 class="minitexto1">Direitos autorais e outros</h4>
-     <ul>
-       <li>Copyright</li>
-       <li>Direitos autorais e liçenca</li>
-       <li>Termos de usuário</li>
-     </ul>
-   </div>
-   <div class="parceiros">
-     <h4 class="minitexto2">Nossos parceiros no projeto</h4>
-     <ul>
-       <li>IAG (São Paulo)</li>
-       <li>USP (Universidade de São Paulo)</li>
-       <li>UNB (Universidade de Brasília)</li>
-     </ul>
-   </div>
-   <div class="contato">
-     <h4 class="minitexto3">Fale conosco !</h4>
-     <ul>
-       <li>Whatsapp: 00 91234-1234</li>
-       <li>Telefone: 4321-4321</li>
-       <li>Instagram: @Flyers</li>
-     </ul>
-   </div>
-   <div class="contato">
-     <h4 class="minitexto4">Patrocinadores</h4>
-     <ul>
-       <li>Canonical Project</li>
-       <li>Red Hat enterprise</li>
-       <li>Space X</li>
-     </ul>
-   </div>
- </footer>
 </template>
 
 <script>
@@ -172,51 +137,6 @@ body, html {
   color: white;
   font-size: 1.8rem;
   font-family: 'Roboto Serif', sans-serif;
-}
-
-.rodape{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-}
-
-.minitexto1{
-  color: white;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-
-}
-
-.minitexto2{
-  color: white;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-}
-
-.minitexto3{
-font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  color: white;
-}
-
-.minitexto4{
-font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  color: white;
-}
-
-
-.direitos ul li{
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  color: white;
-}
-
-.parceiros ul li{
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  color: white;
-}
-
-.contato ul li{
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  color: white;
 }
 
 </style>
