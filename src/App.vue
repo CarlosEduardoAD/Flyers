@@ -94,6 +94,7 @@ min-width: 800px;
   align-items: center;
   justify-content: center;
   background-color: black;
+  margin-top: 100px;
 }
 
 .minitexto1{
